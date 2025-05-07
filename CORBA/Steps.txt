@@ -8,3 +8,5 @@
     java Server -ORBInitialPort 1050 -ORBInitialHost localhost
 5]Run the Client:
     java Client -ORBInitialPort 1050 -ORBInitialHost localhost
+
+--from command 3 to 5 required to be execute on different terminal instances.

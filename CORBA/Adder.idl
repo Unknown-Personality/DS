@@ -1,0 +1,5 @@
+module AdderApp {
+  interface Adder {
+    long add(in long a, in long b);
+  };
+};

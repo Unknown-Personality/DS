@@ -1,0 +1,10 @@
+1]Compile IDL file: 
+    idlj -fall Adder.idl
+2]Compile Java code:
+    javac *.java AdderApp/*.java
+3]Start CORBA Naming Service:
+    tnameserv -ORBInitialPort 1050
+4]Start the Server:
+    java Server -ORBInitialPort 1050 -ORBInitialHost localhost
+5]Run the Client:
+    java Client -ORBInitialPort 1050 -ORBInitialHost localhost

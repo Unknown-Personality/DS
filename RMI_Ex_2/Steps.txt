@@ -1,0 +1,5 @@
+1]Compile all java files
+2]Start RMI Registry by Running Following Command:
+    >rmiregistry
+3]Run Server
+4]Run Client
